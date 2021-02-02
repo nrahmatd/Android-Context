@@ -8,7 +8,9 @@ Android context which is used to initialize context globally in an application.
 
 - Append on AndroidManifest.xml 
 
-```<application
+```
+<application
         android:name=".GlobalApp"
-        android:allowBackup="true" />```
+        android:allowBackup="true" />
+```
 
