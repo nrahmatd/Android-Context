@@ -4,13 +4,13 @@ Android context which is used to initialize context globally in an application.
 # How to use
 - Create a class and extend to AndroidContext like this :
 
-```class GlobalApp : AndroidContext() {}```
+```class App : AndroidContext() {}```
 
 - Append on AndroidManifest.xml 
 
 ```
 <application
-        android:name=".GlobalApp"
+        android:name=".App"
         android:allowBackup="true" />
 ```
 
