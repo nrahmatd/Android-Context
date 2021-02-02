@@ -10,7 +10,7 @@ Android context which is used to initialize context globally in an application.
 
 ```
 <application
-        android:name=".GlobalApp"
+        android:name=".App"
         android:allowBackup="true" />
 ```
 
